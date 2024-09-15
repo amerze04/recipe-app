@@ -4,7 +4,7 @@ import RecipeCard from "../RecipeCard";
 
 function App() {
 
-  const apiKey = import.meta.env.VITE_API_KEY;
+  const apiKey = /* import.meta.env.VITE_API_KEY */"7f16a66f95854c1480b6b175f0cd20c9";
 
   const [recipes, setRecipes] = useState([]);
 
