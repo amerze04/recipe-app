@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    background-color: rgb(0, 255, 234);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: 30px auto;
+}
+
+.recipe-card {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 50px 0;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .4);
+    max-height: 150px;
+    width: 80vw;
+}
+
+.card-txt {
+    overflow: auto;
+}
+
+.card-txt h1{
+  font-size: 1.5rem;
+}
+
+.card-txt p {
+    overflow: auto;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.recipe-card img {
+    width: 200px;
+    object-fit: cover;
+    margin-right: 4%;
+    background: transparent
+}
+
+.show-more-btn {
+    display: block;
+    margin: 0 auto 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    background-color: rgb(0, 255, 234);
+    cursor: pointer;
+    transition: background-color .13s ease-in-out;
+}
+
+.show-more-btn:hover {
+    background-color: rgb(8, 192, 177);
+}
